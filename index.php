@@ -23,7 +23,7 @@
 	<div id="panel">
 		<div class="content clearfix">
 			<div class="left">
-				<h1>Welcome to Web-Kreation</h1>
+				<h1>欢迎来到 Travelers！</h1>
 				<h2>Sliding login panel Demo with jQuery</h2>		
 				<p class="grey">You can put anything you want in this sliding panel: videos, audio, images, forms... The only limit is your imagination!</p>
 				<h2>Download</h2>
@@ -32,50 +32,49 @@
 			<div class="left">
 				<!-- Login Form -->
 				<form class="clearfix" action="#" method="post">
-					<h1>Member Login</h1>
-					<label class="grey" for="log">Username:</label>
+					<h1>会员登录</h1>
+					<label class="grey" for="log">用户名:</label>
 					<input class="field" type="text" name="log" id="log" value="" size="23" />
-					<label class="grey" for="pwd">Password:</label>
+					<label class="grey" for="pwd">密码:</label>
 					<input class="field" type="password" name="pwd" id="pwd" size="23" />
-	            	<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp;Remember me</label>
+	            	<label><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" /> &nbsp;记住我</label>
         			<div class="clear"></div>
-					<input type="submit" name="submit" value="Login" class="bt_login" />
-					<a class="lost-pwd" href="#">Lost your password?</a>
+					<input type="submit" name="submit" value="登录" class="bt_login" />
+					<a class="lost-pwd" href="#">忘记密码？</a>
 				</form>
 			</div>
 			<div class="left right">			
 				<!-- Register Form -->
 				<form action="#" method="post">
-					<h1>Not a member yet? Sign Up!</h1>				
-					<label class="grey" for="signup">Username:</label>
+					<h1>还不是会员？马上注册！</h1>				
+					<label class="grey" for="signup">用户名:</label>
 					<input class="field" type="text" name="signup" id="signup" value="" size="23" />
 					<label class="grey" for="email">Email:</label>
-					<input class="field" type="text" name="email" id="email" size="23" />
-					<label>A password will be e-mailed to you.</label>
-					<input type="submit" name="submit" value="Register" class="bt_register" />
+					<input class="field" type="email" name="email" id="email" size="23" />
+					<label>我们将向此邮箱发送包含随机密码的邮件。请认真填写。</label>
+					<input type="submit" name="submit" value="注册" class="bt_register" />
 				</form>
 			</div>
 		</div>
-</div> <!-- /login -->	
+	</div> <!-- /login -->	
 
 	<!-- The tab on top -->	
 	<div class="tab">
 		<ul class="login">
 			<li class="left">&nbsp;</li>
-			<li>Hello Guest!</li>
+			<li>用户您好！</li>
 			<li class="sep">|</li>
 			<li id="toggle">
-				<a id="open" class="open" href="#">Log In | Register</a>
-				<a id="close" style="display: none;" class="close" href="#">Close Panel</a>			
+				<a id="open" class="open" href="#">登录 | 注册</a>
+				<a id="close" style="display: none;" class="close" href="#">关闭面板</a>			
 			</li>
 			<li class="right">&nbsp;</li>
 		</ul> 
 	</div> <!-- / top -->
-	
 </div> <!--panel -->
 
     <div id="container">
-		<div id="content" style="padding-top:100px;">
+		<div id="content" style="padding-top:50px;">
 			<h1>Web-Kreation Demos</h1>
 			<h2>Sliding login panel with jQuery - Demo</h2>	
 			<p>This script is based on my previous script "<a href="http://web-kreation.com/demos/login_form_mootools_1.2/" title="">Show/Hide Login Panel with Mootools 1.2</a>" but now works with jQuery 1.3.2 instead of Mootools 1.2.</p>
